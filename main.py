@@ -2,7 +2,9 @@ from pathlib import Path
 from rendercv.data import read_a_yaml_file
 from rendercv.api import create_a_pdf_from_a_python_dictionary as create_pdf
 
-cv_yaml_path = "data/cv.yaml"
+cv_yaml_root = "data"
+
+CV_YAML_OPTIONS = ["backend-java", "backend-node", "frontend-react", "fullstack-java", "fullstack-node", "fullstack-react"]
 
 MANDATORY_DICTS = ["root", "cv", "social_networks", "education", "experience", "skills"]
 
@@ -108,20 +110,34 @@ def modify_value(value, parent_key=None):
         return value
 
 
-def create_resume(cv_dict):
+def create_resume(cv_dict, resume_option):
     """
     Create a resume from a dictionary.
     """
     resume_name = input("\nName of the resume file: ")
+    resume_name = resume_option if not resume_name else resume_name.strip()
+    
     output_path = Path(f"output/{resume_name}.pdf")
 
     create_pdf(cv_dict, output_path)
 
 
 def main():
-    cv_dict = read_a_yaml_file(Path(cv_yaml_path))
+    """Main function to run the script.
+    """
+    print("Welcome to the CV generator!")
+    
+    resume_options = choose_array_items(CV_YAML_OPTIONS)
+
+    resume_option = resume_options[0]
+
+    cv_yaml_path = Path(cv_yaml_root) / (resume_option + ".yaml")
+    
+    cv_dict = read_a_yaml_file(cv_yaml_path)
+    
     # cv_dict = modify_dict(cv_dict, parent_key="root")
-    create_resume(cv_dict)
+
+    create_resume(cv_dict, resume_option)
 
 
 if __name__ == "__main__":
