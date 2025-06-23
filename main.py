@@ -117,7 +117,7 @@ def create_resume(cv_dict, resume_option):
     resume_name = input("\nName of the resume file: ")
     resume_name = resume_option if not resume_name else resume_name.strip()
     
-    output_path = Path(f"output/{resume_name}.pdf")
+    output_path = Path(f"output/nikhil-rai-{resume_name}.pdf")
 
     create_pdf(cv_dict, output_path)
 
