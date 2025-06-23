@@ -1,0 +1,112 @@
+cv:
+  name: "Nikhil Rai"
+  email: "nikhil.06.rai@gmail.com"
+  phone: "+91-9871566429"
+  social_networks:
+    - network: "LinkedIn"
+      username: "nikkurai9999"
+    - network: "GitHub"
+      username: "Nikzero6"
+
+  sections:
+    experience:
+      - company: "Limeroad"
+        position: "Software Development Engineer 2"
+        location: "Gurgaon"
+        start_date: "2022-11"
+        end_date: "present"
+        projects:
+          - name: "Search and Recommendation"
+            highlights:
+              - "**Led development** of a scalable semantic search & recomm. system for **5M+ products**, handling **100K+ RPM**."
+              - "**Reduced search response times** to **sub-30 ms** by migrating **Solr** to a distributed cloud setup with **HTTP-proxy caching**, and using an **event-driven architecture** for real-time product data updates with **Kafka**."
+              - "**Boosted** product recommendation **CTR by 20%** using a hybrid **vector search** model with text & image embeddings."
+              - "**Cut search infra costs by 50%** with an **auto-scaling strategy** leveraging **AWS spot instances** for Solr cluster."
+
+          - name: "Ads Monetization Platform"
+            highlights:
+              - "Spearheaded development of an **ads system** enabling vendors to bid for premium spots (homepage, search, banners)."
+              - "Designed a **scalable bidding engine** with **Vickrey auctions**, integrated with search and product pipelines."
+              - "Boosted **revenue by 12%** and vendor engagement via **real-time bidding** and **spend analytics dashboards**."
+              - "Achieved **high availability under load** using **Redis** for bid caching/rate limiting and **Kafka** for bid event streaming."
+
+          - name: "Payment Service"
+            highlights:
+              - "Developed a **payment-gateway agnostic S2S payment service** with **Spring Boot** utilising the **strategy pattern**."
+              - "Enhanced reliability with **Resilience4j** by implementing **circuit breaker pattern** to prevent cascading failures."
+              - "**Reduced server load** by using **Server-Sent Events (SSE)** for real-time payment updates, eliminating short polling."
+              - "**Improved checkout conversions** by **8%**, via introduction of **Pay with Rewards** feature using third-party APIs."
+
+    technical_skills:
+      - label: "Backend Development"
+        details: "Java (8+), Spring Boot, Hibernate, Kafka, RabbitMQ, RESTful APIs, JavaScript, Node.js"
+      - label: "Databases & Caching"
+        details: "MySQL, Amazon Redshift, Amazon RDS, MongoDB, Redis, Solr, Aerospike, ZooKeeper"
+      - label: "Cloud & Infrastructure"
+        details: "AWS services, Docker, Kubernetes, Nginx, Varnish, Jenkins, NewRelic"
+      - label: "Core Engineering"
+        details: "Git, Data Structures & Algorithms, System Design, Design Patterns, Microservices Architecture"
+
+    education:
+      - institution: "Delhi Technological University"
+        area: "Mechanical Engineering (Minor in Computer Engineering)"
+        degree: "B.Tech"
+        location: "New Delhi"
+        start_date: "2019-07"
+        end_date: "2023-06"
+        highlights:
+          - "CGPA: 9.30/10.00, ranked 3rd in Department"
+      - institution: "Sarvodaya Co-Ed Sr. Sec School"
+        area: "Science (PCM)"
+        degree: "CBSE (Class-XII)"
+        location: "New Delhi"
+        start_date: "2017-05"
+        end_date: "2018-05"
+        highlights:
+          - "Secured 92.8%, ranked 1st in Class"
+
+    achievements:
+      - bullet: "Recognized as a Smart India Hackathon **(SIH) finalist** for developing innovative solution for the **Indian Coast Guard**."
+      - bullet: "Led a team of **4** to secure **2nd place** overall in **Vihaan 2021**, a national-level hackathon organized by **IEEE DTU**."
+      - bullet: "Ranked **3rd** in the Departement, securing **Merit-Cum-Means scholarship** by Delhi govt. for the 4 years of graduation."
+      - bullet: "Achieved top **3.7** percentile, amongst the qualifiers of JEE mains 2019 (total 1.2 million qualified candidates)."
+
+design:
+  theme: "theme"
+
+  page:
+    size: "us-letter"
+    top_margin: "1.25cm"
+    bottom_margin: "1.25cm"
+    left_margin: "1cm"
+    right_margin: "1cm"
+    show_page_numbering: false
+    show_last_updated_date: false
+
+  section_titles:
+    vertical_space_above: "0.6cm"
+
+  entry_types:
+    experience_entry:
+      main_column_first_row_template: |-
+        **COMPANY**
+        *POSITION*
+      main_column_second_row_template: |-
+        PROJECTS
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+
+  highlights:
+    top_margin: "0.3cm"
+    left_margin: "0.35cm"
+    vertical_space_between_highlights: "1em"
+
+  text:
+    font_size: "10.2pt"
+    leading: "0.7em"
+
+  entries:
+    vertical_space_between_entries: "1.2em"

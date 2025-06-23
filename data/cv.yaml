@@ -1,0 +1,115 @@
+cv:
+  name: "Nikhil Rai"
+  email: "nikhil.06.rai@gmail.com"
+  phone: "+91-9871566429"
+  social_networks:
+    - network: "LinkedIn"
+      username: "nikkurai9999"
+    - network: "GitHub"
+      username: "Nikzero6"
+
+  sections:
+    summary:
+      - >
+        Backend Software Engineer with **2.5+ years** building scalable, distributed systems serving **10M+ users**. 
+        Skilled in **Java**, **Spring Boot**, **Kafka**, **AWS**, and **System Design** with proven success **leading teams** and driving **revenue growth**.
+
+    experience:
+      - company: "Limeroad"
+        position: "Software Development Engineer 2"
+        location: "Gurgaon"
+        start_date: "2022-11"
+        end_date: "present"
+        projects:
+          - name: "Search and Recommendation"
+            highlights:
+              - "**Led 3 engineers** to build a scalable semantic search & recommendation system for **5M+ products** at **50K+ RPM**."
+              - "Architected and **migrated legacy Solr** to a distributed cloud setup with **HTTP-proxy caching** using Varnish and **real-time updates** using Kafka, reducing response times to **sub-30 ms** (75% improvement)."
+              - "**Boosted search CTR by 20%** using a hybrid **vector search** model combining text and image embeddings."
+              - "**Optimized infra costs by 50%** with an auto-scaling strategy leveraging **AWS spot instances** for Solr cluster."
+              # - "**Established monitoring** using **CloudWatch** and **NewRelic**, achieving **99.9% uptime** for search services."
+          - name: "Ads Monetization Platform"
+            highlights:
+              - "**Spearheaded** development of a real-time bidding system enabling **5K+ vendors** to compete for premium spots."
+              - "Designed scalable **bidding engine** with **Vickrey auctions**, integrated with search and recommendation pipelines."
+              - "**Increased revenue by 12%** and **vendor engagement by 35%** via real-time bidding and analytics dashboards."
+              - "Implemented **high-availability architecture** using **Redis Cluster** for caching and Kafka for event streaming."
+
+          - name: "Payment Service"
+            highlights:
+              - "**Built payment-gateway agnostic service** with Spring Boot and strategy pattern, supporting **5+ providers**."
+              - "**Enhanced system resilience** with **circuit breakers**, reducing failures by 90% and achieving **99.2% success rate**."
+              - "Optimized payment flows with **Server-Sent Events**, **reducing server load by 23%** and improved user experience."
+              - "Introduced **'Pay with Rewards'** feature boosting **checkout conversions by 8%** and **retention by 15%**."
+
+    technical_skills:
+      - label: "Backend Development"
+        details: "Java (8+), Spring Boot, Spring Security, Hibernate/JPA, Kafka, RabbitMQ, RESTful APIs, GraphQL, JavaScript, Node.js"
+      - label: "Databases & Storage"
+        details: "MySQL, PostgreSQL, Amazon Redshift, Amazon RDS, MongoDB, Redis Cluster, Apache Solr, Aerospike, ZooKeeper"
+      - label: "Cloud & Infrastructure"
+        details: "AWS (EC2, S3, Lambda, RDS, CloudWatch, IAM, Auto Scaling), Docker, Kubernetes, Nginx, Varnish Cache, Jenkins CI/CD"
+      - label: "System Architecture"
+        details: "Microservices, Event-driven architecture, Distributed systems, Caching strategies (Redis, CDN), Rate limiting, Load balancing, API Gateway patterns"
+      - label: "Monitoring & DevOps"
+        details: "NewRelic, CloudWatch, Grafana, ELK Stack, Git, Maven, Gradle, JUnit, Mockito, Integration Testing"
+      - label: "Core Engineering"
+        details: "Data Structures & Algorithms, System Design, Design Patterns (Strategy, Observer, Circuit Breaker), CAP theorem, Eventual consistency, Database sharding"
+
+    education:
+      - institution: "Delhi Technological University"
+        area: "Mechanical Engineering (Minor in Computer Engineering)"
+        degree: "B.Tech"
+        location: "New Delhi"
+        start_date: "2019-07"
+        end_date: "2023-06"
+        highlights:
+          - "CGPA: 9.30/10.00, ranked **3rd in the Department**"
+          - "**Merit-Cum-Means scholarship** recipient from Delhi Government for all **4 years**"
+
+    achievements:
+      - bullet: "**Led cross-functional initiatives** resulting in **$2M+ annual revenue impact** and **50% infrastructure cost reduction**."
+      - bullet: "Recognized as a Smart India Hackathon **(SIH) finalist** for developing an **innovative solution** for the **Indian Coast Guard** addressing maritime security challenges."
+      - bullet: "Led a team of **4** to secure **2nd place** overall in **Vihaan 2021**, a national-level hackathon organized by **IEEE DTU**."
+      - bullet: "Scored in the top **3.7 percentile** of JEE Mains 2019 among **1.2 million qualified candidates**."
+      - bullet: "**Mentored 2 junior developers** in system design principles and best practices, improving team productivity by **25%**."
+
+design:
+  theme: "theme"
+
+  page:
+    size: "us-letter"
+    top_margin: "1cm"
+    bottom_margin: "1cm"
+    left_margin: "1cm"
+    right_margin: "1cm"
+    show_page_numbering: false
+    show_last_updated_date: false
+
+  section_titles:
+    vertical_space_above: "0.6cm"
+
+  entry_types:
+    experience_entry:
+      main_column_first_row_template: |-
+        **COMPANY**
+        *POSITION*
+      main_column_second_row_template: |-
+        PROJECTS
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+
+  highlights:
+    top_margin: "0.3cm"
+    left_margin: "0.35cm"
+    vertical_space_between_highlights: "1em"
+
+  text:
+    font_size: "10.2pt"
+    leading: "0.7em"
+
+  entries:
+    vertical_space_between_entries: "1.2em"
