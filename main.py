@@ -115,9 +115,16 @@ def create_resume(cv_dict, resume_option):
     Create a resume from a dictionary.
     """
     resume_name = input("\nName of the resume file: ")
-    resume_name = resume_option if not resume_name else resume_name.strip()
     
-    output_path = Path(f"output/nikhil-rai-{resume_name}.pdf")
+    # create directory if it does not exist
+    output_dir = Path("output") / resume_option
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    if not resume_name:
+        field = resume_option.split("-")[0]
+        resume_name = f"Nikhil_Rai_{field.capitalize()}_Resume.pdf"
+    
+    output_path = output_dir / resume_name
 
     create_pdf(cv_dict, output_path)
 
