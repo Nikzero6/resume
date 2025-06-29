@@ -11,7 +11,7 @@ cv:
   sections:
     summary:
       - >
-        Frontend Software Engineer with **2.5+ years** building scalable, high-performance web applications serving **10M+ users**. 
+        Senior Frontend Engineer with **2.5+ years** building scalable, high-performance web applications serving **10M+ users**. 
         Skilled in **TypeScript**, **React**, and **Next.js** with proven success **leading frontend teams** and driving **revenue growth**.
 
     experience:
@@ -38,10 +38,11 @@ cv:
           
           - name: "E-commerce Frontend Platform"
             highlights:
-              - "Engineered **modular product, cart, & checkout pages** with scalable architecture, maintaining **99.8% uptime**."
+              - "Engineered **mobile-first, responsive** product, cart & checkout pages with scalable architecture and **99.8% uptime**."
               - "**Integrated 5+ payment gateways** with unified API design, processing **50K+ daily transactions** seamlessly."
               - "**Boosted conversion by 9%** and reduced **cart abandonment to 65%** via UX optimization and user exit tracking."
               - "**Improved login success rates by 15%** implementing Truecaller SDK and seamless **OTP auto-read** functionality."
+              - "Built **SPAs** with **Progressive Web App** features like offline caching, increasing repeat sessions by **12%** on mobile."
 
     technical_skills:
       - label: "Frontend Development"
@@ -65,10 +66,10 @@ cv:
         end_date: "2023-06"
         highlights:
           - "CGPA: **9.30/10.00**, ranked **3rd** in the Department"
-          - "**Merit-Cum-Means scholarship** recipient from Delhi Government for all **4 years**"
+          # - "**Merit-Cum-Means scholarship** recipient from Delhi Government for all **4 years**"
 
     achievements:
-      - bullet: "Awarded **Best Innovator** at **Limeroad** for leading **Search & Recommendation**, boosting user engagement by **20%**."
+      - bullet: "Awarded **Excellence Award** at **Limeroad** for leading web performance optimization, boosting retention by **18%**."
       - bullet: "**Smart India Hackathon finalist** for building a maritime **search & rescue** solution for the **Indian Coast Guard**."
       - bullet: "Secured **2nd place** among **500+ teams** in **Vihaan 2021**, a national hackathon by **IEEE DTU**, leading a team of **4**."
       - bullet: "Placed in the top **3.7 percentile** out of **1.2 million candidates** who appeared for **JEE Mains 2019** across India."
