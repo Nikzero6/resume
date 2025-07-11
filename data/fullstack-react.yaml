@@ -1,0 +1,119 @@
+cv:
+  name: "Nikhil Rai"
+  email: "nikhil.fe.careers@gmail.com"
+  phone: "+91-9871566429"
+  social_networks:
+    - network: "LinkedIn"
+      username: "nikkurai9999"
+    - network: "GitHub"
+      username: "Nikzero6"
+
+  sections:
+    summary:
+      - >
+        Full Stack Software Engineer with **2.5+ years** building scalable, high-performance web applications serving **10M+ users**. 
+        Frontend-focused expertise in **React**, **TypeScript**, **Next.js**, and **performance optimization** with strong **backend integration** capabilities. 
+        Skilled in **Java**, **Spring Boot**, and **system design** with proven success **leading teams** and driving **user engagement**.
+
+    experience:
+      - company: "Limeroad"
+        position: "Software Development Engineer 2"
+        location: "Gurgaon"
+        start_date: "2022-11"
+        end_date: "present"
+        projects:
+          - name: "Universal Frontend Application Migration"
+            highlights:
+              - "**Led 5-engineer team** migrating legacy Rails frontend to **React/TypeScript**, serving **1M+ daily active users**."
+              - "**Architected monorepo** with Next.js and Expo app using react-native, achieving **75% cross-platform code** usage."
+              - "**Rewrote backend APIs** according to new API contracts, ensuring seamless integration with modern frontend architecture."
+              - "**Accelerated feature rollouts by 3x** across platforms with **OTA updates**, bypassing app store approval delays."
+              - "Orchestrated **containerized deployment** using Docker/AWS ECR with automated CI/CD, enabling **auto-scaling**."
+              - "**Cut runtime-errors by 80%** using TypeScript and **enforced code standards** via automated linting/formatting."
+
+          - name: "Web Performance Optimization"
+            highlights:
+              - "**Optimized event logging** through batching & rate limiting using web workers, processing **100K+ daily events**."
+              - "Built **lazy-loading image component** with shimmer effects and priority hints, reducing **LCP from 3.8s to 2.3s**."
+              - "Implemented **critical CSS inlining** with Ruby build tasks and deferred css downloads, improving **FCP by 800ms**."
+              - "**Reduced initial bundle size by 100KB** and **TTI by 25%** using Vite code splitting for non-critical JavaScript."
+          
+          - name: "E-commerce Frontend Platform"
+            highlights:
+              - "Engineered **mobile-first, responsive** product, cart & checkout pages with scalable architecture and **99.8% uptime**."
+              - "**Integrated 5+ payment gateways** with unified API design, processing **50K+ daily transactions** seamlessly."
+              - "**Boosted conversion by 9%** and reduced **cart abandonment to 65%** via UX optimization and user exit tracking."
+              - "**Improved login success rates by 15%** implementing Truecaller SDK and seamless **OTP auto-read** functionality."
+              - "Built **SPAs** with **Progressive Web App** features like offline caching, increasing repeat sessions by **12%** on mobile."
+
+          - name: "Ads Monetization Dashboard"
+            highlights:
+              - "**Spearheaded** development of vendor-facing analytics dashboards enabling **5K+ vendors** to manage premium advertising spots."
+              - "Designed intuitive bidding interfaces with real-time updates, **increasing vendor engagement by 35%** and **revenue by 12%**."
+              - "Built comprehensive analytics visualizations showing bidding performance, ROI metrics, and competitive insights."
+              - "Implemented responsive design patterns ensuring seamless experience across desktop and mobile devices."
+              - "Integrated real-time bidding system with **Vickrey auctions** backend using WebSocket connections for live updates."
+
+    technical_skills:
+      - label: "Frontend Development"
+        details: "React, TypeScript, JavaScript (ES6+), Next.js, React Native, HTML5, CSS3, Tailwind CSS"
+      - label: "Build Tools & DevOps"
+        details: "Vite, Webpack, Turborepo, Docker, AWS (ECR, S3, CloudFront), GitHub Actions, CI/CD"
+      - label: "State Management & APIs"
+        details: "Context API, React Query, Redux, RESTful APIs, GraphQL, WebSockets, tRPC"
+      - label: "Backend Integration"
+        details: "Java (8+), Spring Boot, Node.js, Kafka, MySQL, MongoDB, Redis, AWS, Microservices"
+
+    education:
+      - institution: "Delhi Technological University"
+        area: "Mechanical Engineering (Minor in Computer Engineering)"
+        degree: "B.Tech"
+        location: "New Delhi"
+        start_date: "2019-07"
+        end_date: "2023-06"
+        highlights:
+          - "CGPA: **9.30/10.00**, ranked **3rd** in the Department"
+
+    achievements:
+      - bullet: "Awarded **Excellence Award** at **Limeroad** for leading web performance optimization, boosting retention by **18%**."
+      - bullet: "**Smart India Hackathon finalist** for building a maritime **search & rescue** solution for the **Indian Coast Guard**."
+
+design:
+  theme: "theme"
+
+  page:
+    size: "us-letter"
+    top_margin: "1cm"
+    bottom_margin: "1cm"
+    left_margin: "1cm"
+    right_margin: "1cm"
+    show_page_numbering: false
+    show_last_updated_date: false
+
+  section_titles:
+    vertical_space_above: "0.6cm"
+
+  entry_types:
+    experience_entry:
+      main_column_first_row_template: |-
+        **COMPANY**
+        *POSITION*
+      main_column_second_row_template: |-
+        PROJECTS
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+
+  highlights:
+    top_margin: "0.3cm"
+    left_margin: "0.35cm"
+    vertical_space_between_highlights: "1em"
+
+  text:
+    font_size: "10.2pt"
+    leading: "0.7em"
+
+  entries:
+    vertical_space_between_entries: "1.2em"
