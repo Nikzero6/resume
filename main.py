@@ -121,8 +121,9 @@ def create_resume(cv_dict, resume_option):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     if not resume_name:
-        field = resume_option.split("-")[0]
-        resume_name = f"Nikhil_Rai_{field.capitalize()}_Resume.pdf"
+        key_words = resume_option.split("-")
+        field = "_".join([x.capitalize() for x in key_words])
+        resume_name = f"Nikhil_Rai_{field}_Resume.pdf"
     
     output_path = output_dir / resume_name
 
