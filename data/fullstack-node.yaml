@@ -1,6 +1,6 @@
 cv:
   name: "Nikhil Rai"
-  email: "nikhil.be.careers@gmail.com"
+  email: "nikhil.fs.careers@gmail.com"
   phone: "+91-9871566429"
   social_networks:
     - network: "LinkedIn"
@@ -12,7 +12,7 @@ cv:
     summary:
       - >
         Full-stack Developer with **2.5+ years** of experience building **scalable backend systems** and modern web apps serving **10M+ users**. 
-        Specialized in **Java**, **Spring Boot**, **Kafka**, and **AWS**, with experience in **React**, **Next.js**, and **TypeScript**.
+        Specialized in **Java**, **Spring**, **Kafka**, and **AWS**, with experience in **TypeScript**, **Node.js**, and **React**.
 
     experience:
       - company: "Limeroad"
@@ -28,39 +28,30 @@ cv:
               - "Boosted search **CTR by 20%** using hybrid **vector search** (text + image embeddings) and **L2R** model for ranking."
               - "**Optimized infra costs by 50%** with an auto-scaling strategy leveraging **AWS spot instances** for the Solr cluster."
 
+          - name: "Competitive Pricing Intelligence System"
+            highlights:
+              - "Built pricing intelligence system monitoring **500K+ SKUs** daily across **5+ competitors** for price parity actions."
+              - "**Designed distributed scraping pipeline** using **Apache Airflow DAGs**, **Node.js/Puppeteer**, and auto-scaling EC2 fleet (0-10 instances), reducing processing time from **24 hours to 4 hours** with **99.2% reliability**."
+              - "Implemented product discovery with **Google Lens API** & React-based validation tool, achieving **95% automation**."
+              - "**Delivered BI reports** with insights, powering **₹2M+ annual revenue** through price parity & vendor negotiations."
+          
           - name: "Server-2-Server Payment Service & Integration"
             highlights:
-              - "**Built payment-gateway agnostic service** with Spring Boot and strategy pattern, supporting **5+ providers**."
+              - "Built **payment-gateway agnostic** service with Spring framework and strategy pattern, supporting **5+ providers**."
               - "**Enhanced system resilience** with **circuit breakers**, reducing failures by 90% and achieving a **99.2% success rate**."
               - "Optimized payment flows with **Server-Sent Events**, **reducing server load by 23%** and improved user experience."
               - "Introduced the **'Pay with Rewards'** feature, boosting **checkout conversions by 8%** and **retention by 15%**."
               - "Built seamless payment UI with live status tracking and failover flows, **increasing successful checkouts by 5%**."
-          
-          - name: "Ads Monetization Platform"
-            highlights:
-              - "**Spearheaded** development of a real-time bidding system enabling **5K+ vendors** to compete for premium spots."
-              - "Designed a scalable **bidding engine** with **Vickrey auctions**, integrated with search and recommendation pipelines."
-              - "**Increased revenue by 12%** and **vendor engagement by 35%** via real-time bidding and analytics dashboards."
-              - "Implemented **high-availability architecture** using **Redis Cluster** for caching and Kafka for event streaming."
-              - "Developed real-time dashboards for vendors in **React**, improving bid insights and raising **active bids by 25%**."
-
-          # - name: "E-commerce Platform Development"
-          #   highlights:
-          #     - "**Developed end-to-end features** across UI and **Backend-for-Frontend (BFF)** using Java/Spring Boot, serving **1M+ daily active users**."
-          #     - "**Architected scalable BFF layer** with microservices integration, processing **50K+ daily transactions** seamlessly."
-          #     - "**Built resilient payment flows** with **circuit breakers** and **retry mechanisms**, achieving **99.2% success rate**."
-          #     - "**Optimized API performance** with intelligent caching strategies and database query optimization, reducing response times by **40%**."
-          #     - "**Integrated 5+ payment gateways** with unified backend design, supporting diverse payment methods across platforms."
 
     technical_skills:
       - label: "Backend Development"
-        details: "Java (8+), Spring Boot, Hibernate/JPA, Kafka, RabbitMQ, REST APIs, Microservices, Node.js"
+        details: "Java, Spring, Hibernate/JPA, Node.js, Python, Kafka, RabbitMQ, REST APIs, Microservices"
       - label: "Databases & Caching"
-        details: "MySQL, Amazon Redshift, MongoDB, Redis, Apache Solr, Varnish, Aerospike, ZooKeeper"
+        details: "MySQL, Amazon Redshift, MongoDB, Redis, Aerospike, Apache Solr, Varnish, ZooKeeper"
       - label: "Cloud & Infrastructure"
         details: "AWS (EC2, Lambda, RDS, S3, API Gateway, SNS), Docker, Nginx, NewRelic, Jenkins CI/CD"
       - label: "Frontend Technologies"
-        details: "React, TypeScript, JavaScript (ES6+), Next.js, HTML5, CSS3, Tailwind CSS, React Native"
+        details: "React, TypeScript, JavaScript (ES6+), Next.js, Jest, HTML5, CSS3, Tailwind CSS"
 
     education:
       - institution: "Delhi Technological University"
