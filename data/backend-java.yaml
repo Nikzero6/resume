@@ -10,7 +10,7 @@ cv:
     summary:
       - >
         Backend Software Engineer with **2.5+ years** building scalable, distributed systems serving **10M+ users**. 
-        Skilled in **Java**, **Spring Boot**, **Kafka**, **AWS**, and **System Design** with proven success **leading teams** and driving **revenue growth**.
+        Skilled in **Java**, **TypeScript**, **Spring**, **Kafka**, **AWS**, and **System Design** with proven success **leading teams** and driving **revenue**.
 
     experience:
       - company: "Limeroad"
@@ -29,26 +29,35 @@ cv:
 
           - name: "Server-2-Server Payment Service"
             highlights:
-              - "**Built payment-gateway agnostic service** with Spring Boot and strategy pattern, supporting **5+ providers**."
-              - "**Enhanced system resilience** with **circuit breakers**, reducing failures by 90% and achieving **99.2% success rate**."
+              - "Built **payment-gateway agnostic** service with Spring framework and strategy pattern, supporting **5+ providers**."
+              - "**Enhanced system resilience** with **circuit breakers**, reducing failures by 90% and achieving a **99.2% success rate**."
               - "Optimized payment flows with **Server-Sent Events**, **reducing server load by 23%** and improved user experience."
-              - "Introduced **'Pay with Rewards'** feature boosting **checkout conversions by 8%** and **retention by 15%**."
-
-          - name: "Ads Monetization Platform"
+              - "Introduced the **'Pay with Rewards'** feature, boosting **checkout conversions by 8%** and **retention by 15%**."
+          
+          - name: "Competitive Pricing Intelligence System"
             highlights:
-              - "**Spearheaded** development of a real-time bidding system enabling **5K+ vendors** to compete for premium spots."
-              - "Designed scalable **bidding engine** with **Vickrey auctions**, integrated with search and recommendation pipelines."
-              - "**Increased revenue by 12%** and **vendor engagement by 35%** via real-time bidding and analytics dashboards."
-              - "Implemented **high-availability architecture** using **Redis Cluster** for caching and Kafka for event streaming."
+              - "Built pricing intelligence system monitoring **500K+ SKUs** daily across **5+ competitors** for price parity actions."
+              - "**Designed distributed scraping pipeline** using **Apache Airflow DAGs**, **Node.js/Puppeteer**, and auto-scaling EC2 fleet (0-10 instances), reducing processing time from **24 hours to 4 hours** with **99.2% reliability**."
+              - "Implemented product discovery with **Google Lens API** & React-based validation tool, achieving **95% automation**."
+              - "**Delivered BI reports** with insights, powering **₹2M+ annual revenue** through price parity & vendor negotiations."
+
+          # - name: "Ads Monetization Platform"
+          #   highlights:
+          #     - "**Spearheaded** development of a real-time bidding system enabling **5K+ vendors** to compete for premium spots."
+          #     - "Designed scalable **bidding engine** with **Vickrey auctions**, integrated with search and recommendation pipelines."
+          #     - "**Increased revenue by 12%** and **vendor engagement by 35%** via real-time bidding and analytics dashboards."
+          #     - "Implemented **high-availability architecture** using **Redis Cluster** for caching and Kafka for event streaming."
 
     technical_skills:
       - label: "Backend Development"
-        details: "Java (8+), Spring Boot, Hibernate/JPA, Kafka, RabbitMQ, RESTful APIs, TypeScript, Node.js"
+        details: "Java, Spring, Hibernate/JPA, Node.js, Python, Kafka, RabbitMQ, REST APIs, Microservices"
       - label: "Databases & Caching"
-        details: "MySQL, Amazon Redshift, MongoDB, Redis, Apache Solr, Varnish, Aerospike, ZooKeeper"
+        details: "MySQL, Amazon Redshift, MongoDB, Redis, Aerospike, Apache Solr, Varnish, ZooKeeper"
       - label: "Cloud & Infrastructure"
         details: "AWS (EC2, Lambda, RDS, S3, API Gateway, SNS), Docker, Nginx, NewRelic, Jenkins CI/CD"
-
+      - label: "Frontend Technologies"
+        details: "React, TypeScript, JavaScript (ES6+), Next.js, Jest, HTML5, CSS3, Tailwind CSS"
+    
     education:
       - institution: "Delhi Technological University"
         area: "Mechanical Engineering (Minor in Computer Engineering)"
@@ -63,7 +72,7 @@ cv:
     achievements:
       - bullet: "Awarded **Best Innovator** at **Limeroad** for leading **Search & Recommendation**, boosting user engagement by **20%**."
       - bullet: "**SIH finalist** for building a Deep learning based maritime **search & rescue** solution for the **Indian Coast Guard**."
-      - bullet: "Secured **2nd place** among **500+ teams** in **Vihaan 2021**, a national hackathon by **IEEE DTU**, leading a team of **4**."
+      # - bullet: "Secured **2nd place** among **500+ teams** in **Vihaan 2021**, a national hackathon by **IEEE DTU**, leading a team of **4**."
 
 design:
   theme: "theme"
