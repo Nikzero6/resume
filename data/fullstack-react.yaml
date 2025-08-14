@@ -9,9 +9,9 @@ cv:
   sections:
     summary:
       - >
-        Full Stack Software Engineer with **2.5+ years** building scalable, high-performance web applications serving **10M+ users**. 
-        Frontend-focused expertise in **React**, **TypeScript**, **Next.js**, and **performance optimization** with strong **backend integration** capabilities. 
-        Skilled in **Java**, **Spring Boot**, and **system design** with proven success **leading teams** and driving **user engagement**.
+        Software Engineer with **2.5+ years** building scalable, high-performance web applications serving **10M+ users**. 
+        Frontend-focused expertise in **React**, **TypeScript**, **Next.js**, with strong **backend integration** capabilities. 
+        Skilled in **Java**, **Node.js**, and **system design** with proven success **leading teams** and driving **user engagement**.
 
     experience:
       - company: "Limeroad"
@@ -24,7 +24,7 @@ cv:
             highlights:
               - "**Led 5-engineer team** migrating legacy Rails frontend to **React/TypeScript**, serving **1M+ daily active users**."
               - "**Architected monorepo** with Next.js and Expo app using react-native, achieving **75% cross-platform code** usage."
-              - "**Rewrote backend APIs** according to new API contracts, ensuring seamless integration with modern frontend architecture."
+              - "**Rewrote backend APIs** according to new API contracts, ensuring seamless integration with frontend architecture."
               - "**Accelerated feature rollouts by 3x** across platforms with **OTA updates**, bypassing app store approval delays."
               - "Orchestrated **containerized deployment** using Docker/AWS ECR with automated CI/CD, enabling **auto-scaling**."
               - "**Cut runtime-errors by 80%** using TypeScript and **enforced code standards** via automated linting/formatting."
@@ -36,21 +36,13 @@ cv:
               - "Implemented **critical CSS inlining** with Ruby build tasks and deferred css downloads, improving **FCP by 800ms**."
               - "**Reduced initial bundle size by 100KB** and **TTI by 25%** using Vite code splitting for non-critical JavaScript."
           
-          - name: "E-commerce Frontend Platform"
+          - name: "Server-2-Server Payment Service & Integration"
             highlights:
-              - "Engineered **mobile-first, responsive** product, cart & checkout pages with scalable architecture and **99.8% uptime**."
-              - "**Integrated 5+ payment gateways** with unified API design, processing **50K+ daily transactions** seamlessly."
-              - "**Boosted conversion by 9%** and reduced **cart abandonment to 65%** via UX optimization and user exit tracking."
-              - "**Improved login success rates by 15%** implementing Truecaller SDK and seamless **OTP auto-read** functionality."
-              - "Built **SPAs** with **Progressive Web App** features like offline caching, increasing repeat sessions by **12%** on mobile."
-
-          - name: "Ads Monetization Dashboard"
-            highlights:
-              - "**Spearheaded** development of vendor-facing analytics dashboards enabling **5K+ vendors** to manage premium advertising spots."
-              - "Designed intuitive bidding interfaces with real-time updates, **increasing vendor engagement by 35%** and **revenue by 12%**."
-              - "Built comprehensive analytics visualizations showing bidding performance, ROI metrics, and competitive insights."
-              - "Implemented responsive design patterns ensuring seamless experience across desktop and mobile devices."
-              - "Integrated real-time bidding system with **Vickrey auctions** backend using WebSocket connections for live updates."
+              - "Built **payment-gateway agnostic** service with Spring framework and strategy pattern, supporting **5+ providers**."
+              - "**Enhanced system resilience** with **circuit breakers**, reducing failures by 90% and achieving a **99.2% success rate**."
+              - "Optimized payment flows with **Server-Sent Events**, **reducing server load by 23%** and improved user experience."
+              - "Introduced the **'Pay with Rewards'** feature, boosting **checkout conversions by 8%** and **retention by 15%**."
+              - "Built seamless payment UI with live status tracking and failover flows, **increasing successful checkouts by 5%**."
 
     technical_skills:
       - label: "Frontend Development"
@@ -60,7 +52,7 @@ cv:
       - label: "State Management & APIs"
         details: "Context API, React Query, Redux, RESTful APIs, GraphQL, WebSockets, tRPC"
       - label: "Backend Integration"
-        details: "Java (8+), Spring Boot, Node.js, Kafka, MySQL, MongoDB, Redis, AWS, Microservices"
+        details: "Java (8+), Spring, Node.js, Kafka, MySQL, MongoDB, Redis, AWS, Microservices"
 
     education:
       - institution: "Delhi Technological University"
